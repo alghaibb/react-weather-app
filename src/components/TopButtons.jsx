@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function TopButtons() {
 
@@ -12,13 +12,13 @@ function TopButtons() {
   ];
 
   return (
-    <div className='flex items-center justify-around my-6'>
+    <div className='flex flex-wrap items-center justify-around my-6'>
 
       {/* Rendering city buttons */}
       {cities.map(city => (
         <button
           key={city.id}
-          className='text-gray-100 text-lg font-medium'>
+          className='text-gray-300 hover:text-gray-50 duration-150 text-lg font-medium'>
           {city.title}
         </button>
 
