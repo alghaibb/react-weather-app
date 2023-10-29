@@ -9,7 +9,7 @@ function Inputs() {
         <input
           type="text"
           placeholder='Search...'
-          className='text-xl text-gray-900 p-2 focus:outline-none w-full shadow-xl capitalize'
+          className='text-xl text-gray-900 p-2 focus:outline-none w-full shadow-xl capitalize rounded-lg'
         />
         <UilSearch
           size={25}
@@ -21,13 +21,13 @@ function Inputs() {
       </div>
 
       <div className='flex flex-row w-1/4 items-center justify-center'>
-        <button name='metric' className='text-xl text-gray-300 hover:text-gray-50 hover:scale-125 duration-300 transition active:duration-150 ease-in-out transform active:scale-110'>
+        <button name='metric' className='text-lg text-gray-300 hover:text-gray-50 hover:scale-125 duration-300 transition active:duration-150 ease-in-out transform active:scale-110'>
           °C
         </button>
 
-        <p className='text-xl text-gray-300 mx-1 pointer-events-none '>|</p>
+        <p className='text-md text-gray-300 mx-2 pointer-events-none '>|</p>
 
-        <button name='imperial' className='text-xl text-gray-300 hover:text-gray-50 hover:scale-125 duration-300 transition active:duration-150 ease-in-out transform active:scale-110'>
+        <button name='imperial' className='text-lg text-gray-300 hover:text-gray-50 hover:scale-125 duration-300 transition active:duration-150 ease-in-out transform active:scale-110'>
           °F
         </button>
       </div>
